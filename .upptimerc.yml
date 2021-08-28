@@ -1,6 +1,5 @@
-# Change these first
-owner: TriForMine # Your GitHub organization or username, where this repository lives
-repo: isekaimaid-uptime # The name of this repository
+owner: TriForMine
+repo: isekaimaid-uptime
 
 sites:
   - name: Isekai Maid
@@ -9,12 +8,17 @@ sites:
     url: https://wiki.isekaimaid.xyz
   - name: Isekai Maid Roadmap
     url: https://board.isekaimaid.xyz
+  - name: Isekai Maid Bot
+    check: "tcp-ping"
+    url: server.isekaimaid.xyz
+    port: 7777
+
+assignees:
+  - TriForMine
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+theme: dark
   cname: status.isekaimaid.xyz
-  # baseUrl: /your-repo-name
   logoUrl: https://assets.isekaimaid.xyz/ms-icon-310x310.png
   name: Isekai Maid Status
   introTitle: "**Isekai Maid** is a Discord Bot with 40,000+ characters from all sorts of animes/mangas to claim, level up, trade, and more!"
@@ -22,8 +26,5 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Official Website
+      href: https://www.isekaimaid.xyz
