@@ -5,19 +5,17 @@
     "icon": "https://favicons.githubusercontent.com/www.isekaimaid.xyz",
     "slug": "isekai-maid",
     "status": "up",
-    "uptime": "87.71%",
-    "uptimeDay": "87.71%",
-    "uptimeWeek": "87.71%",
-    "uptimeMonth": "87.71%",
-    "uptimeYear": "87.71%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 608,
     "timeDay": 608,
     "timeWeek": 608,
     "timeMonth": 608,
     "timeYear": 608,
-    "dailyMinutesDown": {
-      "2021-08-28": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Isekai Maid Wiki",
