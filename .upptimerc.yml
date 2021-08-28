@@ -16,6 +16,10 @@ sites:
 assignees:
   - TriForMine
 
+commitMessages:
+  commitAuthorName: "Upptime Bot"
+  commitAuthorEmail: "upptime@koj.co"
+
 status-website:
   theme: night
   cname: status.isekaimaid.xyz
