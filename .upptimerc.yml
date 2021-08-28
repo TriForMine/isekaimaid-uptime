@@ -17,7 +17,7 @@ assignees:
   - TriForMine
 
 status-website:
-  theme: dark
+  theme: night
   cname: status.isekaimaid.xyz
   logoUrl: https://assets.isekaimaid.xyz/ms-icon-310x310.png
   name: Isekai Maid Status
